@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aeonik;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+#intro{
+    height: 40%;
+    width: 100%;
+    
+    padding: 50px 60px;
+
+}
+#intro h1{
+    font-size: 145px;
+    letter-spacing: -3px;
+    line-height: 130px;
+
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    font-size: 35px;
+    font-family: 600;
+}
+#hero-image {
+   height:1000px ;
+    width: 100%;
+ background-image: url(https://media.istockphoto.com/id/1208157127/vector/yellow-and-orange-unusual-background-with-subtle-rays-of-light.webp?s=612x612&w=is&k=20&c=JJBglOx2TWqxbYN4LDgsvZliU0dOi-VXvrpZJX9blbk=);
+ background-size: cover;
+}
+#about{
+    height: 400px;
+    width: 100%;
+    padding: 50px 60px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+#about h2{
+
+    font-weight: 600;
+    font-size: 55px;
+    line-height:  58px;
+    letter-spacing: -2px;
+}
+#about-2{
+    padding: 0px 60px;
+    width: 100%;
+  height: 310px;
+   border-left: 2.5px solid #000;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+   
+}
+#about-2 h3{
+   
+   font-size: 40px;
+   font-weight: 600;
+
+}
+
+#icons i{
+    background-color: #000000;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size:25 ;
+}
+#work{
+    height: 400px;
+    width: 100%;
+    border-top: 2.5px solid black;
+   padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#work-left{
+    height:  350px;
+    width: 40%;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+  
+
+    
+   
+}
+#work-left h3{
+    font-size: px;
+    font-weight: 600;
+}
+#work-rigth{
+    height:  350px;
+    width: 65%;
+ border-left: 2.5px solid #000000;
+ 
+
+
+}
+.right-part{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+   
+}
+.right-part:nth-child(1){
+  border-bottom: 2.5px solid #000;
+}
+.elem{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+
+
+}
+.elem :nth-child(1){
+    border-right: 2px solid #000;
+}
+
